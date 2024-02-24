@@ -1,0 +1,82 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+   
+}
+.container {
+    width: 500px;
+    height: 400px;
+    margin: 100px auto;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color:beige;
+    border-radius: 20px;
+
+    
+}
+
+/* styling h1 heading */
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-weight: 2.6rem;
+    color: black;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    cursor: pointer;
+}
+
+h1:hover{
+    text-transform: uppercase;
+}
+
+/* styling stopwatch */
+
+#watch{
+      width: 180px;
+      height: 80px;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color:#001a33;
+      box-shadow:0 0 6px 5px khaki;
+}
+#seconds,#tens{
+    font-size: 2rem;
+}
+
+
+/* styling buttons */
+
+button{
+    background-color:darkgoldenrod;
+    color: black;
+    width:100px;
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+/* hovering effect */
+
+ button:hover{
+    background-color: black;
+    box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+    border: 3px solid #00d7c3;
+    color: #00d7c3;
+    text-transform: uppercase;
+    
+} 
+         
+         
+         
+         
+         
